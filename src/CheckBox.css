@@ -1,0 +1,11 @@
+.control-container{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.control-container label{
+    display: block;
+    text-align: left;
+}
