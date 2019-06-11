@@ -1,0 +1,25 @@
+.hero__container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+}
+
+.hero__container img {
+    height: 50px;
+    width: 50px;
+    border: 1px solid lightBlue;
+}
+
+.hero__hp-bar {
+    width:150px;
+    height:20px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.common {background-color: #666;}
+.uncommon {background-color: green;}
+.rare {background-color: blue;}
+.heroic {background-color: purple;}
+.epic {background-color: yellow;}
+.legendary {background-color: orange;}
+.relict {background-color: red;}
